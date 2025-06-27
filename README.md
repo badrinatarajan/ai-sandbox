@@ -40,14 +40,13 @@ Here are the prerequisites for this project:
    
    export VERTEX_API_KEY = \<your vertex api key\>
 
-10. To run the code:
+   export SM_WEAVIATE_API_KEY_RESOURCE = \<your GCP secret manager location where you stored the weaviate key\> # from step 2(a) above
+
+11. To run the code:
     
     python3 ./vertex_weaviate_rag.py
 
-   
-   
-   export SM_WEAVIATE_API_KEY_RESOURCE = \<your GCP secret manager location where you stored the weaviate key\> # from step 2(a) above
-   
+ 
    
    
    
