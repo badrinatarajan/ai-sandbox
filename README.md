@@ -18,11 +18,18 @@ Here are the prerequisites for this project:
 7. pip3 install -U weaviate-client
 8. pip3 install -U pandas python-dotenv streamlit
 9. Set the following environment variables :
-   export PROJECT_ID = <your GCP project ID>
-   export LOCATION = <your GCP cloud region> # if you leave this empty by default the us-central1 region will be used
-   export WEAVIATE_HTTP_ENDPOINT = <your weaviate cluster endpoint>
-   export WEAVIATE_API_KEY = <your weaviate api key>
-   export VERTEX_API_KEY = <your vertex api key>
-   export SM_WEAVIATE_API_KEY_RESOURCE = <your GCP secret manager location where you stored the weaviate key> # from step 2(a) above
+   export PROJECT_ID = \<your GCP project ID\>
+   
+   export LOCATION = \<your GCP cloud region\> # if you leave this empty by default the us-central1 region will be used
+   
+   export WEAVIATE_HTTP_ENDPOINT = \<your weaviate cluster endpoint\>
+   
+   export WEAVIATE_API_KEY = \<your weaviate api key\>
+   
+   export VERTEX_API_KEY = \<your vertex api key\>
+   
+   export SM_WEAVIATE_API_KEY_RESOURCE = \<your GCP secret manager location where you stored the weaviate key\> # from step 2(a) above
+   
+   
    
    
